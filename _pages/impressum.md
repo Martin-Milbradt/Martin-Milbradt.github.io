@@ -5,14 +5,10 @@ permalink: /impressum/
 noindex: true
 ---
 
-Angaben gemäß § 5 DDG:
+Martin Milbradt  
+Ramlerstr. 30A  
+13355 Berlin
 
-**Martin Milbradt**
-[ADDRESS LINE 1]
-[ADDRESS LINE 2]
+USt-ID: DE324684452
 
-**Kontakt**
-E-Mail: impressum@martinmilbradt.de
-
-**Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV**
-Martin Milbradt (Anschrift wie oben)
+E-Mail: [impressum@martinmilbradt.de](mailto:impressum@martinmilbradt.de)
