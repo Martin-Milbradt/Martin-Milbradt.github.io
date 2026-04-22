@@ -6,11 +6,13 @@ subtitle: AI safety contractor and software engineer.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: 2023-10-09.jpg
   image_circular: true
 ---
 
 Hi, I'm Martin. I work on AI safety as a contractor, and before that I spent years building software for financial services.
+
+[Book a call with me](https://calendly.com/martin-milbradt/30min).
 
 ## Current clients
 
