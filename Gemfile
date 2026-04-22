@@ -9,4 +9,6 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
 end
 
+# Explicit dependencies no longer bundled with Ruby 3.3+
+gem 'nokogiri'
 gem 'webrick'
