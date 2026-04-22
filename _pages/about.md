@@ -10,7 +10,7 @@ profile:
   image_circular: true
 ---
 
-I evaluate frontier AI models for dangerous capabilities, working with governments and leading AI labs to keep development safe. I currently contribute to AI safety research at METR, EquiStamp, and Redwood Research, where I design benchmarks, run evaluations, and develop new approaches to measure AI capabilities.
+I evaluate frontier AI models for dangerous capabilities, working with leading research organizations to keep development and deployment safe. I currently contribute to AI safety research at METR, EquiStamp, and Redwood Research, where I design benchmarks, run evaluations, and develop new approaches to measure AI capabilities.
 
 Before AI safety I worked in software engineering in C#, Python, and system architecture, across insurance, banking, and automotive. I've led complex migrations, integrated international partners, and shipped mission-critical systems. I'm drawn to high-impact technical work.
 
