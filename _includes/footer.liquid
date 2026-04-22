@@ -1,0 +1,33 @@
+{% capture footer_contents %}
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}" target="_blank" rel="noopener" aria-label="LinkedIn">
+      <i class="fa-brands fa-linkedin"></i> LinkedIn
+    </a>
+    <a href="{{ site.data.socials.giving_what_we_can.url }}" target="_blank" rel="noopener" aria-label="Giving What We Can">
+      <img src="{{ site.data.socials.giving_what_we_can.logo }}" alt=""> {{ site.data.socials.giving_what_we_can.title }}
+    </a>
+  </div>
+  <div>
+    &copy; {{ site.time | date: '%Y' }}
+    {{ site.first_name }}
+    {{ site.middle_name }}
+    {{ site.last_name }}.
+    {% if site.last_updated %}
+      Last updated {{ 'now' | date: '%B %d, %Y' }}.
+    {% endif %}
+  </div>
+{% endcapture %}
+
+{% if site.footer_fixed %}
+  <footer class="fixed-bottom" role="contentinfo">
+    <div class="container mt-0">
+      {{ footer_contents }}
+    </div>
+  </footer>
+{% else %}
+  <footer class="sticky-bottom mt-5" role="contentinfo">
+    <div class="container">
+      {{ footer_contents }}
+    </div>
+  </footer>
+{% endif %}

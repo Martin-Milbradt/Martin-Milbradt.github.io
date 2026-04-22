@@ -1,0 +1,133 @@
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+
+title: blank # blank => first_name middle_name last_name is used
+first_name: Martin
+middle_name:
+last_name: Milbradt
+description: >
+  Martin Milbradt's personal site. AI safety contractor and software engineer.
+keywords: martin milbradt, ai safety, software engineer, metr, equistamp, redwood research
+lang: en
+icon: 👋
+
+url: https://martin-milbradt.github.io
+baseurl: /my-website
+last_updated: false
+back_to_top: false
+
+# -----------------------------------------------------------------------------
+# Layout
+# -----------------------------------------------------------------------------
+
+navbar_fixed: true
+footer_fixed: false
+search_enabled: false
+max_width: 800px
+
+# -----------------------------------------------------------------------------
+# Open Graph & Schema.org
+# -----------------------------------------------------------------------------
+
+serve_og_meta: false
+serve_schema_org: false
+og_image:
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+include: ["_pages"]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - vendor
+keep_files:
+  - .nojekyll
+
+plugins:
+  - jekyll-cache-bust
+  - jekyll-feed
+  - jekyll-link-attributes
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
+
+sass:
+  style: compressed
+
+# -----------------------------------------------------------------------------
+# Optional features
+# -----------------------------------------------------------------------------
+
+enable_google_analytics: false
+enable_cronitor_analytics: false
+enable_pirsch_analytics: false
+enable_openpanel_analytics: false
+enable_google_verification: false
+enable_bing_verification: false
+enable_cookie_consent: false
+enable_masonry: false
+enable_math: false
+enable_tooltips: false
+enable_darkmode: true
+enable_navbar_social: false
+enable_medium_zoom: false
+enable_progressbar: false
+lazy_loading_images: true
+
+# Scholar/publications badges — the metadata.liquid references site.enable_publication_badges
+enable_publication_badges:
+  altmetric: false
+  dimensions: false
+  google_scholar: false
+  inspirehep: false
+
+# Imagemagick pipeline is disabled; figure.liquid falls back to a single <img>.
+imagemagick:
+  enabled: false
+
+# -----------------------------------------------------------------------------
+# External link attributes
+# -----------------------------------------------------------------------------
+
+external_links:
+  enabled: true
+  rel: external nofollow noopener
+  target: _blank
+
+# -----------------------------------------------------------------------------
+# Third-party library versions (used by head.liquid / scripts.liquid)
+# -----------------------------------------------------------------------------
+
+third_party_libraries:
+  download: false
+  google_fonts:
+    url:
+      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+  jquery:
+    integrity:
+      js: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/jquery@{{version}}/dist/jquery.min.js"
+    version: "3.6.0"
+  mdb:
+    integrity:
+      css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
+      js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/css/mdb.min.css"
+      js: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/js/mdb.min.js"
+    version: "4.20.0"
