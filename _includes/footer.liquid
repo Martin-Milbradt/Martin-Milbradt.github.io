@@ -15,8 +15,9 @@
     {{ site.first_name }}
     {{ site.middle_name }}
     {{ site.last_name }}.
+    <a href="{{ '/impressum/' | relative_url }}">Impressum</a>
     {% if site.last_updated %}
-      Last updated {{ 'now' | date: '%B %d, %Y' }}.
+      · Last updated {{ 'now' | date: '%B %d, %Y' }}.
     {% endif %}
   </div>
 {% endcapture %}
